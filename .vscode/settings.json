@@ -1,0 +1,6 @@
+{
+    "java.configuration.maven.userSettings": "./.mvn/local-settings.xml",
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "maven.dependency.enableConflictDiagnostics": false,
+    "maven.executable.options": ""
+}
