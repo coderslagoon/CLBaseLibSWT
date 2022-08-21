@@ -104,7 +104,7 @@ public class SWTUtil {
     }
 
     public static Menu getMainMenu(Display display, Shell shell) {
-        if (MiscUtils.underOSX()) {
+        if (MiscUtils.underMacOS()) {
             return display.getMenuBar();
         }
         Menu result = new Menu(shell, SWT.BAR);
